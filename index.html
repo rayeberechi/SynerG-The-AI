@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="Author" content="Faithy, Debbie, SA and Godwin— Web3Bridge W2BACXII" />
+
+    <title>SynerG | The AI</title>
+    <link rel="icon" href="/Assets/Synergy-dAI-goldwhite.png" type="image/x-icon">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+
+    <script src='script.js' defer></script>
+</head>
+<body>
+    <!-- Chat-Container -->
+    <div class="chat-container">
+        <div class="chat outgoing">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="/Assets/Anon-rep.png" alt="user-img">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, incidunt!</p>
+                </div>
+            </div>
+        </div>
+        <div class="chat incoming">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="/Assets/Synergy-dAI-goldwhite.png" alt="user-img">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, incidunt!</p>
+                </div>
+                <span class="material-symbols-rounded"><i class="fas fa-copy"></i></span>
+            </div>      
+        </div>
+
+        <div class="chat incoming">
+            <div class="chat-content">
+                <div class="chat-details">
+                    <img src="/Assets/Synergy-dAI-goldwhite.png" alt="user-img">
+                    <div class="typing-animation">
+                        <div class="typing-dot" style="--delay: 0.2s"></div>
+                        <div class="typing-dot" style="--delay: 0.2s"></div>
+                        <div class="typing-dot" style="--delay: 0.2s"></div>
+                    </div>
+                </div>
+                <span class="material-symbols-rounded"><i class="fas fa-copy"></i></span>
+            </div>      
+        </div>
+
+    </div>
+
+    <!-- Typing vontainer -->
+    <div class="typing-container">
+    <div class="typing-content">
+        <div class="typing-textarea">
+            <textarea name="chat-input" id="chat-input" placeholder="What's your question today?" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded"><i class="far fa-paper-plane"></i></span>
+        </div>
+        <div class="typing-controls">
+            <span id="theme-btn" class="material-symbols-rounded"><i class="fas fa-moon"></i></span>
+            <span id="delete-btn" class="material-symbols-rounded"><i class="far fa-trash-alt"></i></span>
+        </div>
+    </div>
+    </div>    
+</body>
+</html>
