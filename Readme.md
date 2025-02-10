@@ -1,5 +1,5 @@
 Design preview for the SynerG AI website built by a four-man team (Faith Eberechi, John Deborah, Samuel Ajayi, and Godwin Jonathan)
-[!](./)
+[!](./designs/Screenshot%202025-02-10%20210056.png)
 
 
 # Table of contents
@@ -35,12 +35,12 @@ Users should be able to:
 
 #### Screenshot
 
-![](./images/Screenshot%202025-02-06%20124917.png)
+![](./designs/Screenshot%202025-02-10%20210056.png)
 
 
 #### Links
 
-- Live Site URL: (https://myrockpaperandscissorsgame.netlify.app/)
+- Live Site URL: (https://synerg-the-ai.netlify.app/)
 - Solution URL: (https://github.com/rayeberechi/SynerG-The-AI.git)
 
 ## Our process
