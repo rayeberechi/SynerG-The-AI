@@ -36,7 +36,7 @@ const themeBtn = document.querySelector("#theme-btn");
 const dltBtn = document.querySelector("#delete-btn");
 
 // API Key
-// const API_KEY = "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";
+const API_KEY = "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";
 
 // let userText = null; // Stores user input text
 // const initialHeight = chatInput.offsetHeight; // Default chat input height
