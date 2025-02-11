@@ -1,3 +1,26 @@
+/* default */
+:root {
+    --text-color: #ffffff;
+    --icon-color: #acacbe;
+    --icon-hover-bg: #5b5e71;
+    --placeholder-color: #cccccc;
+    --outgoing-chat-bg: #343542;
+    --incomoing-chat-bg: #444654;
+    --outgoing-chat-border: #343541;
+    --incomoing-chat-border: #444654;
+}
+
+.light-mode {
+    --text-color: #343541;
+    --icon-color: #a9a9bc;
+    --icon-hover-bg: #f1f1f3;
+    --placeholder-color: #9f9f9f;
+    --outgoing-chat-bg: #ffffff;
+    --incomoing-chat-bg: #f7f7f8;
+    --outgoing-chat-border: #ffffff;
+    --incomoing-chat-border: #d9d9e3;
+}
+
 /* 1.*/
 :root {
     --text-color: #ffffff;

@@ -1,32 +1,3 @@
-// const chatInput = document.getElementById("#chat-input");
-// const sendButton = document.getElementById("#send-btn");
-// const chatContainer  = document.getElementById(".chat-container");
-
-// let userText = null;
-
-// const createElement = (html, className) => {
-//     const chatDiv = document.createElement('div');
-//     chatDiv.classList.add (chat, className);
-//     chatDiv.innerHTML = html;
-//     return chatDiv ; 
-// };
-
-// const handleOutgoingChat = () => {
-//     userText = chatInput.value.trim();
-//     console.log(userText);
-//     const html = `<div class="chat-content">
-//                 <div class="chat-details">
-//                     <img src="/Assets/Anon-rep.png" alt="user-img">
-//                     <p>${userText }</p>
-//                 </div>
-//             </div>`;
-//             // create an ongoing chatDiv with users message and append it to chat  container
-//             const ongoingChatDiv = createElement ("html, ongoing"); 
-//             chatContainer.appendChild(ongoingChatDiv); 
-// }
-
-// sendButton.addEventListener("click", handleOutgoingChat); 
-
 //  var-declarations
 // Selecting necessary DOM elements
 const chatInput = document.querySelector("#chat-input");
@@ -38,8 +9,8 @@ const dltBtn = document.querySelector("#delete-btn");
 // API Key
 const API_KEY = "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";
 
-// let userText = null; // Stores user input text
-// const initialHeight = chatInput.offsetHeight; // Default chat input height
+let userText = null; // Stores user input text
+const initialHeight = chatInput.offsetHeight; // Default chat input height
 
 // Initialization Fxn
 const loadDataFromLocalStorage = () => {
@@ -71,7 +42,7 @@ const createElement = (html, className) => {
 
 const getChatResponse = async (incomingChatDiv) => {
     // Handles API call to fetch AI response
-    // const API_URL = "https://api.openai.com/v1/completions";
+    const API_URL = "https://api.openai.com/v1/completions";
     const pElement = document.createElement("p"); // Response container
 
 
