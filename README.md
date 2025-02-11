@@ -1,5 +1,6 @@
 Design preview for the SynerG AI website built by a four-man team (Faith Eberechi, John Deborah, Samuel Ajayi, and Godwin Jonathan)
 [!](./designs/Screenshot%202025-02-10%20210056.png)
+[!](./designs/SynerG.png)
 
 
 # Table of contents
